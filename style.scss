@@ -1,0 +1,46 @@
+body {
+    background-color: beige;
+}
+
+img {
+  display: block;
+}
+
+.sidenav {
+  a {
+    position: absolute;
+    right: 0px;
+    transition: 300ms;
+    transition-timing-function: ease-out;
+    padding: 15px;
+    width: 50px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 16px;
+    color: white;
+    &:hover {
+        right: 0;
+        width: 200px;
+      }
+    }
+    &__myblog {
+        top: 0px;
+        background-color: #e17b77;
+    }
+    &__twitter {
+      top: 72px;
+      background-color:  #00aced;
+    }
+    &__linkedin {
+      top: 148px;
+      background-color: #007bb6;
+    }
+    &__facebook {
+      top: 217px;
+      background-color: #3b5998;
+    }
+    &__github {
+      top: 300px;
+      background-color: #333;
+    }
+  }
